@@ -41,6 +41,7 @@ const appStore = {
   basecamp3: () => import("./basecamp3"),
   telegramvideo: () => import("./telegram"),
   shimmervideo: () => import("./shimmervideo"),
+  squadcastvideo: () => import("./squadcast"),
 };
 
 const exportedAppStore: typeof appStore & {

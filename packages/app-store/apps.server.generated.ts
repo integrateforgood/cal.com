@@ -61,6 +61,7 @@ export const apiHandlers = {
   shimmervideo: import("./shimmervideo/api"),
   signal: import("./signal/api"),
   sirius_video: import("./sirius_video/api"),
+  squadcast: import("./squadcast/api"),
   stripepayment: import("./stripepayment/api"),
   sylapsvideo: import("./sylapsvideo/api"),
   tandemvideo: import("./tandemvideo/api"),
